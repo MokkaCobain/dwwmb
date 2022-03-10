@@ -1,6 +1,7 @@
-// ====================
-// LE TYPE NUMBER EN JS
-// ====================
+/********************
+ ** LE TYPE NUMBER ** 
+ ********************/
+
 
 20;
 -45;
@@ -24,8 +25,10 @@ console.log(`45 / 3.2 = ${division}`);
 let modulo = 45 % 8;
 console.log(`45 % 8 = ${modulo}`);
 
-// ORDRE DE PRIORITE DES OPERATIONS
-// ================================
+/********************
+ ** ORDRE DE PRIORITE 
+ ** DES OPERATIONS ** 
+ ********************/
 
 let resultat = 3 - 9 * 2;
 console.log(`resultat = ${resultat}`);
@@ -55,9 +58,10 @@ console.log(`resultat = ${resultat}`);
 resultat = -1 / 0;
 console.log(`resultat = ${resultat}`);
 
-
-// LES OPERATEURS D'ASSIGANTIONS
-// =============================
+/********************
+ ** LES OPERATEURS **
+ ** D'ASSIGNATIONS ** 
+ ********************/
 
 let x = 3;
 console.log(`x = ${x}`);
@@ -113,8 +117,10 @@ console.log(1.5 + 1.5 * 3); // ==> 6
 console.log((10 % 6) ** 2); // ==> 16
 console.log(200 + 0 / 0);   // ==> NaN
 
-// LES ARRONDIS
-// ============
+/********************
+ ** LES ARRONDIS ** 
+ ********************/
+
 console.log(Math.floor(0.9));   //  ==> 0
 console.log(Math.floor(1.1));   //  ==> 1
 
@@ -133,9 +139,11 @@ let aleatoire = Math.random();
 // aleatoire = Math.floor(Math.random() * 11);
 console.log(`aleatoire = ${aleatoire}`);
 
+/********************
+ ** LES OPERATEURS **
+ ** DE COMPARAISON ** 
+ ********************/
 
-// OPERATEURS DE COMPARAISON
-// =========================
 console.log(4 < 5);
 console.log(4 < 3);
 console.log(4 <= 3);

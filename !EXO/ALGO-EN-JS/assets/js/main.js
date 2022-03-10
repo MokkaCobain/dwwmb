@@ -5,15 +5,15 @@
 let message = ``;
 let eau = Number(prompt(`Entrez la température de l'eau`));
 
-if (eau <= 0 || eau < 5){
+if (eau <= 0){
     message = `glace`;
 }
 
-if (eau >= 5 && eau < 100){
+else if (eau >= 1 && eau < 100){
     message = `liquide`;
 }
 
-if (eau >= 100)  {
+else if (eau >= 100)  {
     message = `vapeur`;
 }
 console.log(message);
@@ -46,17 +46,18 @@ else if (age >= 12) {
 /*** EXO3 ***
  ***      ***/
 
-let a = 5;
-let b = 13;
-console.log(`Avant permutation`);
+let a = Number(prompt(`Entrez un nombre`));
+let b = Number(prompt(`Entrez un nombre`));
+console.log(`Avant le tour de magie...`);
 console.log(`a = ${a}`);
 console.log(`b = ${b}`);
 let c = a;
 a = b;
 b = c;
-console.log(`Après permutation`);
+console.log(`Après le tour de magie :`);
 console.log(`a = ${a}`);
 console.log(`b = ${b}`);
+console.log(`Tadaaaaaaaa`);
 
 /*** EXO4 ***
  ***      ***/

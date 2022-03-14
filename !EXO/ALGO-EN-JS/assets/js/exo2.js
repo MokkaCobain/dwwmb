@@ -1,6 +1,13 @@
 /*** EXO2 ***
  ***      ***/
 
+//  ▪ Écrire un algorithme qui détermine la catégorie sportive d’un utilisateur en fonction de son âge :
+//  ➢ 6 à 7 ans : poussin
+//  ➢ 8 à 9 ans : pupille
+//  ➢ 10 à 11 ans : minime
+//  ➢ 12 ans et plus : cadet
+//  ▪ Écrire le programme JavaScript associé. 
+
 let age = Number(prompt(`Entrez votre âge`));
 
 if (!Number.isInteger(age)){

@@ -1,6 +1,9 @@
 /*** EXO4 ***
  ***      ***/
 
+
+//  Proposez un programme JavaScript qui demande le poids en kg et la taille en cm à son utilisateur puis calcule son IMC et lui affiche un message en fonction du résultat obtenu.
+//  Le calcul de l'IMC se fait en divisant le poids « exprimé en kg » par la taille au carré « exprimée en m ».
 let poids = Number(prompt(`Entrez votre poids en kg`));
 let taille = Number(prompt(`Entrez votre taille en cm`));
 

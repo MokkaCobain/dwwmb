@@ -7,7 +7,7 @@ I. FRONT :
 -MediaQueries = le resultat doit se rapprocher du visuel pdf fourni + s'adapter au ieux à tous les écrans
 
 
-II. JAVASCRIPT DEBUTANT: 
+II. JAVASCRIPT DEBUTANT : 
 
 -JS = manipuler les objets + les classes + le DOM
 

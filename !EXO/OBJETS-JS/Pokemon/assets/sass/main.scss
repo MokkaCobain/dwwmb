@@ -1,0 +1,106 @@
+@import "base/reset"; // Reset d'Eric Meyer
+@import "base/font";
+
+
+// Reset of mine 
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+  
+  body {
+    font-size: 1.7rem;
+    font-family: $myFont;
+    font-weight: 400;
+    text-align: justify;
+    background-color: grey;
+    
+}
+
+
+  // Minimal style
+
+.container {
+    width: 50vw;
+    height: auto;
+    margin: 5rem auto;
+    padding: 7rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+    .partie-1 {
+    
+        h1, h2 {
+            text-transform: uppercase;
+            padding-top: 2rem;
+        }
+
+        h1 {
+            font-size: 2.1rem;
+            font-weight: 700;
+        }
+        h2 {
+            font-size: 1.7rem;
+            font-weight: 400;
+        }
+
+        p {
+            line-height: 3rem;
+            padding-top: 2rem;;
+        }
+
+        .details, .resultat {
+            padding-left: 1rem;
+
+            .puces {
+                font-weight: 400;
+                margin-right: 1rem;
+            }
+
+            .titre{
+                font-weight: 600;
+                color : cor
+            }
+        } 
+    }
+}
+
+
+@media screen and (max-width : 1300px ) {
+
+    body {
+        margin : 0;
+        width: auto;
+        height: auto;
+        background-color: grey;
+        overflow: scroll;
+        
+    }
+    .container {
+        width: 95vw;
+        height: auto;
+        background-color: white;
+        padding: 4rem;
+        font-size: 1.6rem;
+        text-align: left;
+
+        .partie-1 {
+       
+            .details, .resultat {
+                padding-left: 0;
+                width: 90%;
+            }
+        }
+    }
+    
+}
+
+

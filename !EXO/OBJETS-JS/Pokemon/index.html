@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 13 : POO</title>
+
+    <!--STYLE-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="partie-1">
+
+            <h1>Exercice 13 : POO </h1>
+            <h2>Partie 1 : Pokemon</h2>
+
+            <p>Les Pokémons sont des gentils animaux qui sont passionnés par la programmation objet en général et par le « polymorphisme » en particulier. Il existe quatre grandes catégories de Pokémons :</p>
+
+            <section class="details">
+                <p><span class="puces">1.</span><span class="titre">Les Pokémons sportifs</span> : Ces Pokémons sont caractérisés par un nom, un poids (en kg), un nombre de pattes, une taille (en mètres) et une fréquence cardiaque mesurée en nombre de pulsations à la minute. Ces Pokémons se déplacent sur la terre à une certaine vitesse que l’on peut calculer grâce à la formule suivante : <span class="formule">vitesse = nombre de pattes * taille * 3</span>.</p>
+
+                <br>
+
+                <p><span class="puces">2.</span><span class="titre">Les Pokémons casaniers</span> : Ces Pokémons sont caractérisés par un nom, un poids (en kg), un nombre de pattes, une taille (en mètres) et le nombre d’heures par jour où ils regardent la télévision. Ces Pokémons se déplacent également sur la terre à une certaine vitesse que l’on peut calculer grâce à la formule suivante : <span class="formule">vitesse = nombre de pattes * taille * 3</span>.</p>
+
+                <br>
+
+                <p><span class="puces">3.</span><span class="titre">Les Pokémons des mers</span> : Ces Pokémons sont caractérisés par un nom, un poids (en kg) et un nombre de nageoires. Ces Pokémons ne se déplacent que dans la mer à une vitesse que l’on peut calculer grâce à la formule suivante : <span class="formule">vitesse = poids / 25 * nombre de nageoires</span>.</p>
+
+                <br>
+
+                <p><span class="puces">4.</span><span class="titre">Les Pokémons de croisière</span> : Ces Pokémons sont caractérisés par un nom, un poids (en kg) et un nombre de nageoires. Ces Pokémons ne se déplacent que dans la mer à une vitesse que l’on peut calculer grâce à la formule suivante : <span class="formule">vitesse = (poids / 25 * nombre de nageoires) / 2</span>.</p>
+            </section>
+        
+            <p>Pour chacune de ces quatre catégories de Pokémons, on désire disposer d’une méthode <span class="string" id="string-1">toString()</span> qui retourne « dans une chaîne de caractères » les caractéristiques du Pokémon. <br>
+            Par exemple la méthode <span class="string" id="string-2">toString()</span> appliquée sur un Pokémon sportif retournerait :</p>
+            
+            <section class="resultat">
+                <p id="PokemonSportif" class="pokemon"></p>
+            </section>
+
+            <p>Cette même méthode appliquée sur un Pokémon casanier pourrait retourner :</p>
+
+            <section class="resultat">
+                <p id="PokemonCasanier" class="pokemon"></p>
+            </section>
+
+            <p>Sur un Pokémon des mers :</p>
+
+            <section class="resultat">
+                <p id="PokemonDesMers" class="pokemon"></p>
+            </section>
+
+            <p>Et enfin sur un Pokémon de croisière :</p>
+
+            <section class="resultat">
+                <p id="PokemonDeCroisiere" class="pokemon"></p>
+            </section>
+            
+        </div>
+        
+
+        
+    </div>
+
+    <!--JAVASCRIPT-->
+
+    <script src="assets/js/main.js"></script>
+    <script type="module" src="assets/js/pokemonGenerator.js"></script>
+    
+</body>
+</html>

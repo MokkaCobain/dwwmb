@@ -1,13 +1,13 @@
 Dans cet exercice, j'ai tenté de mettre en pratique mes nouvelles connaissances... 
 
-I.Front :
+I. FRONT :
 
 -Sass = compilation + partiels (_reset & _font)
 
 -MediaQueries = le resultat doit se rapprocher du visuel pdf fourni + s'adapter au ieux à tous les écrans
 
 
-II.Programmation mode débutant : 
+II. JAVASCRIPT DEBUTANT: 
 
 -JS = manipuler les objets + les classes + le DOM
 

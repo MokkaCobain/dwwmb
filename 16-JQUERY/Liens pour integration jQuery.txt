@@ -1,0 +1,4 @@
+https://jquery.com/download/
+
+CDN
+https://releases.jquery.com/
